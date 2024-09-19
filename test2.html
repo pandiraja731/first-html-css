@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        nav{
+            display: flex;
+            width: 100%;
+            height: 80px;
+            background-color: rgb(45, 45, 70);
+            color: aliceblue;
+           
+        
+        }
+        .child1 h1{ 
+              margin-left: 20px;
+        }
+        .parent1 {
+            display: flex;
+            color: aliceblue;
+            text-shadow: 20px;
+            margin-left: 600px;
+            
+        }
+       .parent1 a{
+        color: aliceblue;
+        padding: 2px;
+        margin-left: 100px;
+        font-size: 20px;
+        text-decoration:none;
+       }
+       .parent2{
+        background-color: rgb(0, 255, 179);
+        height: 380px;
+        color: #f4f7fa
+       }
+        .parent2 img{
+            margin-top: 20px;
+            margin-left: 500px;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        .parent2 h1{
+            margin-left: 450px;
+        }
+        .parent2 p{
+            margin-left: 410px;
+             
+           margin-bottom: 80px;
+        }
+        .parent4{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 20px;
+            background-color: #f4f7fa;
+            padding: 10px;
+            box-shadow: 20px;
+        }
+        .parent4 img{
+            margin-top: 20px;
+            margin-left: 50px;
+            border-radius:150px;
+            width: 300px;
+        }
+        .item1 { grid-area: 1 / 3 / 2 / 4; }
+        .item2 { grid-area: 2 / 3 / 3 / 4; }
+        .item3 { grid-area: 1 / 1 / 2 / 2; }
+        .item4 { grid-area: 1 / 2 / 2 / 3; }
+        .item5 { grid-area: 2 / 1 / 3 / 2; }
+        .item6 { grid-area: 2 / 2 / 3 / 3; } 
+        
+        .d1{
+            display: flex;
+            margin-left: 520px;
+           
+        }
+        .d2{
+            display: flex;
+            margin-left: 530px;
+            margin-bottom: 40px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="child1">
+            <h1>START BOOTSTRAP</h1>
+
+        </div>
+        <div class="parent1">
+            <p><a href="#">Portfolio</a></p>
+            <p><a href="#">About</a></p>
+            <p><a href="#">Contect</a></p>
+        </div>
+    </nav>
+     <div class="parent2">
+        <img src="img2.avif" alt="img">
+        <h1>START BOOTSTRAP</h1>
+       <div class="d1">
+         <div style="border-bottom:4px solid white ; width:50px; margin-bottom: 6px;">
+            
+         </div>
+         <div style="color: #f4f7fa;">
+            <i class="fa-solid fa-star"></i>
+         </div>
+         <div style="border-bottom:4px solid rgb(238, 234, 234) ; width:50px;margin-bottom: 6px;">
+
+         </div>
+       </div>
+        <p>Web developer - Grapic artist - User Experience Designer</p>
+     </div>
+     <div class="parent3">
+        <h1 style="margin-left: 500px;">PORTPOLIO</h1>
+        <div class="d2">
+            <div style="border-bottom:4px solid rgb(22, 22, 22) ; width:50px; margin-bottom: 6px;">
+               
+            </div>
+            <div style="color: #191a1b;">
+               <i class="fa-solid fa-star"></i>
+            </div>
+            <div style="border-bottom:4px solid rgb(32, 20, 20) ; width:50px;margin-bottom: 6px;">
+   
+            </div>
+          </div>
+     </div>
+     <div class="parent4">
+        <div class="item1" style="background-color: rgb(24, 23, 23) ; "><img src="img3.avif" alt=""></div>
+        <div class="item2" style="background-color: rgb(44, 132, 167);"><img src="img4.webp" alt=""></div>
+        <div class="item3" style="background-color: rgb(161, 54, 46);"><img src="img5.webp" alt=""></div>
+        <div class="item4" style="background-color: rgb(43, 226, 217);"> <img src="img6.webp" alt=""></div>
+        <div class="item5" style="background-color: rgb(0, 162, 255);"><img src="img6.webp" alt=""></div>
+        <div class="item6" style="background-color: rgb(0, 38, 255);"><img src="img7.jpg" alt=""></div>
+     </div>
+
+     
+    
+</body>
+</html>
